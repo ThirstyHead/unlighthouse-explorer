@@ -4,8 +4,8 @@
   "description": "Unlighthouse explorer",
   "main": "index.js",
   "scripts": {
-    "testm": "TODAY=$(date \"+%Y-%m-%d_%H-%M-%S\"); unlighthouse-ci --site https://fpacbc.usda.gov --mobile  --output-path reports/mobile/$TODAY ",
-    "testd": "TODAY=$(date \"+%Y-%m-%d_%H-%M-%S\"); unlighthouse-ci --site https://fpacbc.usda.gov --desktop --output-path reports/desktop/$TODAY ",
+    "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://fpacbc.usda.gov --mobile  --output-path reports/mobile/$TODAY ",
+    "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://fpacbc.usda.gov --desktop --output-path reports/desktop/$TODAY ",
     "test":  "unlighthouse-ci --site https://fpacbc.usda.gov"
   },
   "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
