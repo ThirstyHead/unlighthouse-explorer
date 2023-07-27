@@ -4,9 +4,11 @@
   "description": "Unlighthouse explorer",
   "main": "index.js",
   "scripts": {
+    "dirh": "cd reports; tree . -L 2 -H . > index.html",
+    "dirj": "cd reports; tree . -L 2 -J  > index.json",
     "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://fpacbc.usda.gov --mobile  --output-path reports/mobile/$TODAY ",
     "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://fpacbc.usda.gov --desktop --output-path reports/desktop/$TODAY ",
-    "test":  "unlighthouse-ci --site https://fpacbc.usda.gov"
+    "test":  "npm run testm; npm run testd; npm run dirh; npm run dirj"
   },
   "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
   "license": "CC-BY-4.0"

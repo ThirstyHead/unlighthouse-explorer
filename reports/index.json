@@ -1,0 +1,19 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"directory","name":"desktop","contents":[
+      {"type":"directory","name":"2023-07-25"},
+      {"type":"directory","name":"2023-07-26"},
+      {"type":"directory","name":"2023-07-27"}
+    ]},
+    {"type":"file","name":"index.html"},
+    {"type":"file","name":"index.json"},
+    {"type":"directory","name":"mobile","contents":[
+      {"type":"directory","name":"2023-07-13"},
+      {"type":"directory","name":"2023-07-25"},
+      {"type":"directory","name":"2023-07-26"},
+      {"type":"directory","name":"2023-07-27"}
+    ]}
+  ]}
+,
+  {"type":"report","directories":10,"files":2}
+]
